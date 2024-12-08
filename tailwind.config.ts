@@ -18,7 +18,8 @@ export default {
       },
       boxShadow: {
         'custom-1': '0 0 40px 0 rgba(0, 0, 0, 0.08)',
-        'custom-2': '0 0 16px 0 rgba(0, 0, 0, 0.1)'
+        'custom-2': '0 0 16px 0 rgba(0, 0, 0, 0.12)',
+        'custom-3': '0 0 16px 0 rgba(0, 0, 0, 0.16)',
       },
     },
   },
