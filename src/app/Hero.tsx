@@ -1,10 +1,11 @@
 import React from 'react'
+import HeroHeader from './components/HeroHeader'
 
 const Hero = () => {
   return (
     <div className='h-screen'>
       <div className='flex flex-col items-center gap-5 mt-20'>
-        <h1 className='text-[64px] leading-[68px] font-medium text-center'>I build tailored website<br />for freelancers</h1>
+        <HeroHeader />
         <h4 className='text-[24px] leading-[32px] text-center opacity-70 text-secondary'>Make your brand stand out, be different, be unique.</h4>
       </div>
 
