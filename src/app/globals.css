@@ -5,6 +5,7 @@
 :root {
   --background: #fafafa;
   --foreground: #141414;
+  --secondary: #8c8c8c;
 }
 
 body {
