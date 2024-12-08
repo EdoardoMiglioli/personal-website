@@ -56,3 +56,19 @@ body {
 .btn:hover::before {
   opacity: 1;
 }
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode:difference;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+}
