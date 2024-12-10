@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} antialiased`}
       >
-        
+        <Cursor />
         {children}
       </body>
     </html>
