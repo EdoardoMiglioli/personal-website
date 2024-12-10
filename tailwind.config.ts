@@ -21,6 +21,9 @@ export default {
         'custom-2': '0 0 16px 0 rgba(0, 0, 0, 0.12)',
         'custom-3': '0 0 16px 0 rgba(0, 0, 0, 0.16)',
       },
+      fontFamily: {
+        inter: 'var(--font-inter)',
+      },
     },
   },
   plugins: [],
