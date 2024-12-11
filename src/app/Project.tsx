@@ -13,7 +13,14 @@ const Project = () => {
 
       <div className='flex items-end justify-between mx-20 mb-40'>
         <p className='w-[484px] text-[28px] leading-[34px]'>Lorem ipsum dolor sit amet consectetur. Vel lectus sodales sed laoreet in auctor porttitor arcu. Purus viverra iaculis magna aliquet accumsan.</p>
-        <Image className='min-w-[489px]' src={mockup} alt='Mackbook mockup with past work showcase' />
+        <Image
+         className="min-w-[489px]"
+         src={mockup}
+         alt="Mackbook mockup with past work showcase"
+         style={{ objectFit: 'cover' }}
+         priority
+        />
+        
       </div>
     </section>
   )
