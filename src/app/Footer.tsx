@@ -7,7 +7,7 @@ import Dribbble from '/public/icons/Dribbble.svg'
 
 const Footer = () => {
   return (
-    <footer className='h-screen relative'>
+    <footer id='footer' className='h-screen relative'>
       <div className='absolute inset-0 self-center mx-20 flex justify-between items-start'>
         <p className='font-inter text-[16px] font-semibold'>(GET IN TOUCH)</p>
 
@@ -17,13 +17,13 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-col justify-between h-[192px]'>
-          <button><Image className='h-10' src={X} alt='X' /></button>
-          <button><Image className='h-10' src={LinkedIn} alt='LinkedIn' /></button>
-          <button><Image className='h-10' src={Dribbble} alt='Dribbble' /></button>
+          <button><Image src={X} alt='X' height={40} width={40} /></button>
+          <button><Image src={LinkedIn} alt='LinkedIn' height={40} width={40} /></button>
+          <button><Image src={Dribbble} alt='Dribbble' height={40} width={40} /></button>
         </div>
       </div>
 
-      <div className='absolute bottom-0 mx-20 mb-10 flex justify-between text-[16px] leading-[20px]'>
+      <div className='w-full absolute bottom-0 px-20 mb-10 flex justify-between text-[16px] leading-[20px]'>
         <p>hello@edoardomiglioli.com</p>
         <p>Copyright©EdoardoMiglioli</p>
       </div>
