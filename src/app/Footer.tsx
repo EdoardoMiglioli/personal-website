@@ -13,7 +13,7 @@ const Footer = () => {
 
         <div className='flex flex-col gap-6 w-[484px]'>
           <p className='text-[36px] leading-[48px] font-medium'>Let's get in touch and start talking about your idea.</p>
-          <button className='w-fit px-5 py-4 border-[1px] border-foreground rounded-full text-[20px] leading-none'>Let's talk</button>
+          <button className='w-fit px-5 py-4 border-[1px] border-foreground rounded-full text-[20px] leading-none transition-all duration-[350ms] hover:bg-foreground hover:text-background'>Let's talk</button>
         </div>
 
         <div className='flex flex-col justify-between h-[192px]'>
