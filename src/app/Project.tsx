@@ -4,7 +4,7 @@ import mockup from '/public/images/Transparent_MacBook_Pro.png'
 
 const Project = () => {
   return (
-    <section className='flex flex-col justify-between min-h-screen mt-[200px]'>
+    <section className='flex flex-col justify-between min-h-screen bg-background'>
       <div className='flex justify-between items-start font-inter mx-20'>
         <p className='text-[24px] font-semibold leading-none'>CHIARA<br />BARBIERI</p>
         <p className='text-[16px] leading-none'>Personal<br />website</p>

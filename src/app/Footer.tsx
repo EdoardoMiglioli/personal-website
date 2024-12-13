@@ -7,7 +7,7 @@ import Dribbble from '/public/icons/Dribbble.svg'
 
 const Footer = () => {
   return (
-    <footer id='footer' className='h-screen relative'>
+    <footer id='footer' className='h-screen relative bg-background'>
       <div className='absolute inset-0 self-center mx-20 flex justify-between items-start'>
         <p className='font-inter text-[16px] font-semibold'>(GET IN TOUCH)</p>
 

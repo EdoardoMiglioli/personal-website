@@ -29,7 +29,7 @@ const Fading = () => {
 
   return (
       <div
-        className={`z-10 bottom-0 sticky h-[160px] w-screen fading ${
+        className={`z-20 bottom-0 sticky h-[160px] w-screen fading ${
           isVisible ? '' : 'hidden'
         }`}
       />

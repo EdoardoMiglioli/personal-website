@@ -27,7 +27,8 @@ const Offer = () => {
   ]
 
   return (
-    <section className='flex flex-col justify-between h-screen'>
+    <section className='flex flex-col justify-between h-screen bg-background'>
+      <div className='-mt-[160px] h-[160px] w-screen fading' />
       <div className='mx-20 mt-[88px] flex justify-between'>
         <div className='font-medium text-[36px] leading-[48px]'>
           <div className='flex gap-6'>
