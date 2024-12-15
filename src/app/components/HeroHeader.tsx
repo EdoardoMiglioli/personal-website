@@ -8,7 +8,7 @@ const HeroHeader = () => {
   const characters = text.split("");
 
   return (
-    <h1 className="w-[740px] text-[64px] leading-[68px] font-medium text-center whitespace-pre-line">
+    <h1 className="w-[740px] text-[28px] xs:text-[36px] sm:text-[48px] md:text-[64px] leading-[32px] xs:leading-[40px] sm:leading-[52px] md:leading-[68px] font-medium text-center whitespace-pre-line">
       {characters.map((char, index) => {
         let fontWeight = "font-medium";
         if (currentLetterIndex === index) {

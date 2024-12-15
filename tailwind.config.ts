@@ -27,6 +27,10 @@ export default {
       fontFamily: {
         inter: 'var(--font-inter)',
       },
+      screens: {
+        xxs: '380px',
+        xs: '420px'
+      },
     },
   },
   plugins: [],
