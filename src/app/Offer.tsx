@@ -31,14 +31,14 @@ const Offer = () => {
       <div className='-mt-[160px] h-[160px] w-screen fading' />
       
       <div className='mx-20 mt-[88px] flex justify-between'>
-        <div className='font-medium text-[36px] leading-[48px]'>
+        <div className='font-medium lg:text-[32px] xl:text-[36px] lg:leading-[42px] xl:leading-[48px]'>
           <div className='flex gap-6'>
-            <Image className='w-40 h-24 rounded-2xl' src={iphones} alt='Work showcase iphones mockup' />
+            <Image className='lg:w-[146px] lg:h-[88px] xl:w-40 xl:h-24 rounded-2xl' src={iphones} alt='Work showcase iphones mockup' />
             <h4>A unique person deserves a unique<br />website. That's what I'm specialised in.</h4>
           </div>
-          <h4 className='mt-2 w-[928px]'>I rapidly build quality websites by following a clear system that has proved itself with several clients</h4>
+          <h4 className='mt-[6px] xl:mt-2 lg:w-[820px] xl:w-[928px]'>I rapidly build quality websites by following a clear system that has proved itself with several clients</h4>
         </div>
-        <p className='font-inter text-[16px] font-semibold text-right'>(MY OFFER)</p>
+        <p className='hidden lg2:block min-w-[178px] font-inter text-[16px] font-semibold text-right'>(MY OFFER)</p>
       </div>
 
       <ul className='flex justify-between mx-20 mb-16'>

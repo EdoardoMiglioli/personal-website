@@ -3,9 +3,9 @@ import React from 'react';
 const CTAButton = () => {
   return (
     <button
-      className="btn z-50 group fixed flex items-center justify-center ml-7 sm:ml-0 w-[88px] h-[88px] sm:w-[104px] sm:h-[104px] transition-all duration-[400ms] hover:w-[108px] hover:h-[108px] sm:hover:w-32 sm:hover:h-32 rounded-full bg-white shadow-custom-1 hover:shadow-none"
+      className="btn z-50 group fixed flex items-center justify-center ml-8 sm:ml-0 mt-3 sm:mt-0 w-[88px] h-[88px] sm:w-[104px] sm:h-[104px] transition-all duration-[400ms] hover:w-[108px] hover:h-[108px] sm:hover:w-32 sm:hover:h-32 rounded-full bg-white shadow-custom-1 hover:shadow-none"
       style={{
-        top: "calc(100% - 96px)",
+        top: "calc(100% - 108px)",
         left: "calc(100% - 108px)",
         transform: "translate(-50%, -50%)",
       }}
