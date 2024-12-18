@@ -30,7 +30,8 @@ export default {
       screens: {
         xxs: '380px',
         xs: '420px',
-        lg2: '1080px'
+        xs2: '496px',
+        lg2: '1080px',
       },
     },
   },
